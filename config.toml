@@ -3,6 +3,7 @@ baseurl = "https://erictcormack.me/"
 languageCode = "en-us"
 title = "Eric T Cormack"
 theme = "artists"
+publishDir = "docs"
 
 [params]
 

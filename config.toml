@@ -55,11 +55,15 @@ publishDir = "public"
 		# 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
     [[params.contact.social]]
 			icon = "github"
-			link = "//github.com/theodinspire"
+			link = "https://github.com/theodinspire"
+
+		[[params.contact.social]]
+			icon = "instagram"
+			link = "https://instagram.com/theodinspire"
 
 		[[params.contact.social]]
 			icon = "linkedin"
-			link = "//www.linkedin.com/in/erictcormack"
+			link = "https://www.linkedin.com/in/erictcormack"
 
 
 	[params.form]

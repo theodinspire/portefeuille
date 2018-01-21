@@ -8,3 +8,7 @@ title = "Projects"
 [[projects]]
     name = "Miracle Messages"
     folder = "miraclemessages"
+
+[[projects]]
+    name = "Grackle"
+    folder = "grackle"

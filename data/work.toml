@@ -4,3 +4,7 @@ title = "Projects"
 [[projects]]
     name = "Coupleteer"
     folder = "coupleteer"
+
+[[projects]]
+    name = "Miracle Messages"
+    folder = "miraclemessages"

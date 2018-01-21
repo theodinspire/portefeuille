@@ -1,0 +1,6 @@
+# Section title
+title = "Projects"
+
+[[projects]]
+    name = "Coupleteer"
+    folder = "coupleteer"

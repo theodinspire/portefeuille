@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://erictcormack.me/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Eric T Cormack"
 theme = "artists"

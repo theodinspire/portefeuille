@@ -53,9 +53,21 @@ function  workLoad() {
 		newTitle = $this.find('strong').text(),
 		newfolder = $this.find('.thumb-unit').data('folder'),
 		spinner = '<div class="loader">Loading...</div>',
-		newHTML = document.URL + 'work/' + newfolder;
+		newHTML = document.URL + 'work/' + newfolder + '/';
+		console.log(newHTML);
 
-		$('.project-load').html(spinner).load(newHTML);
+		let element = document.getElementsByClassName('project-load')[0];
+
+		element.innerHTML = spinner;
+
+		fetch(newHTML).then(function(res) {
+			return res.text().then(function(text) {
+				console.log(text);
+				element.innerHTML = text;
+			});
+		});
+
+		//$('.project-load').html(spinner).load(newHTML);
 		$('.project-title').text(newTitle);
 	});
 

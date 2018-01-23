@@ -1,10 +1,13 @@
 {{ "<!-- About section -->" | safeHTML }}
-<section>
+<section class="section-about">
     {{ with .Site.Params.about.title }}<h3 id="about-me">{{ . }}</h3>{{ end }}
 
     <div class="face-lockup">
         <div class="face-img"></div>
-        <div class="icon-pencil">
+        <div class="resume">
+          <a class="resume-link" href="/files/resume.pdf">résumé</a>
+        </div>
+        <!-- <div class="icon-pencil">
             {{ partial "icons/icon-pencil.html"}}
         </div>
         <div class="icon-mouse">
@@ -15,7 +18,7 @@
         </div>
         <div class="icon-video">
             {{ partial "icons/icon-video.html"}}
-        </div>
+        </div> -->
     </div>
 
     {{ with .Site.Params.about.bio }}

@@ -1,0 +1,61 @@
+# Skills
+skills = [
+  "Swift",
+  "iOS",
+  "Java",
+  "Python",
+  "Scala",
+  "HTML",
+  "CSS",
+  "Javascript",
+  "SQL",
+  "Git",
+  "Object Oriented Programming",
+  "Functional Programming"
+]
+
+# Employment history
+[[employment]]
+  employer = "Erikson Institute"
+  position = "Technical Support Specialist"
+  location = "Chicago, IL"
+  start = 2015-02
+  id = "erikson"
+
+[[employment]]
+  employer = "Miracle Messages"
+  position = "Volunteer iOS Developer"
+  start = 2017-06
+  id = "miraclemessages"
+
+[[employment]]
+  employer = "Wirbicki Law Group"
+  start = 2013-12
+  end = 2014-12
+
+[[employment]]
+  employer = "WMS Gaming"
+  position = "Associate Mathematician"
+  start = 2010-09
+  end = 2013-10
+  id = "wms"
+
+# Education
+[[education]]
+  institution = "DePaul University"
+  degree = "Master of Science"
+  major = "Computer Science"
+  graduation = 2017-06
+  id = "compsci"
+
+[[education]]
+  institution = "DePaul University"
+  degree = "Bachelor of Science"
+  major = "Physics"
+  graduation = 2010-06
+
+[[education]]
+  institution = "DePaul University"
+  degree = "Bachelor of Arts"
+  major = "Art"
+  graduation = 2010-06

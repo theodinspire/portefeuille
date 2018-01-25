@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+  <head>
+    {{ partial "head.html" . }}
+    <title>{{ .Site.Title }}</title>
+  </head>
+  <body>
+    <div class="resume-skills">
+      {{ with .Site.Data.resume.skills }}
+      <ul class="cloud">
+        {{ range .Site.Data.resume.skills }}<li>{{ . }}</li>{{ end }}
+      </ul>
+      {{ end }}
+    </div>
+  </body>
+</html>

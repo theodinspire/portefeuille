@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "/"
+baseurl = "//erictcormack.com/"
 languageCode = "en-us"
 title = "Eric T Cormack"
 theme = "artists"
@@ -13,7 +13,7 @@ publishDir = "public"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Eric T Cormack"
-	description = "Your description"
+	description = "Cormack is a Software Developer. You would like him."
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual

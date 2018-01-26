@@ -44,8 +44,9 @@ publishDir = "public"
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
 		title = "About me"
-		bio = "Cormack is the most gosh darn enthusiastic developer that you haven't hired yet. Though recently out of graduate school, he has a keen mind and a knack for tackling problems. When not working on new and exciting products, he spends his time mastering the longsword."
+		bio = "Cormack is the most gosh darn enthusiastic developer that you haven't hired yet. Recently out of graduate school, he has a keen mind and a knack for tackling problems. Particular areas of intrest to him include mobile development, natural language processing and machine learning. When not working on new and exciting products, he spends his time mastering the longsword and developing his hand at drawing."
 
+	# Résumé
 	[params.resume]
 		filename = "resume.pdf"
 

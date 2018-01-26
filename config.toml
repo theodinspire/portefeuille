@@ -46,6 +46,9 @@ publishDir = "public"
 		title = "About me"
 		bio = "Cormack is the most gosh darn enthusiastic developer that you haven't hired yet. Though recently out of graduate school, he has a keen mind and a knack for tackling problems. When not working on new and exciting products, he spends his time mastering the longsword."
 
+	[params.resume]
+		filename = "resume.pdf"
+
 	# Contact secion
 	[params.contact]
 		title = "Contact"
@@ -57,9 +60,9 @@ publishDir = "public"
 			icon = "github"
 			link = "https://github.com/theodinspire"
 
-		[[params.contact.social]]
-			icon = "instagram"
-			link = "https://instagram.com/theodinspire"
+		# [[params.contact.social]]
+		# 	icon = "instagram"
+		# 	link = "https://instagram.com/theodinspire"
 
 		[[params.contact.social]]
 			icon = "linkedin"

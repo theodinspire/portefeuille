@@ -4,9 +4,6 @@
 
     <div class="face-lockup">
         <div class="face-img"></div>
-        <div class="resume">
-          <a class="resume-link" href="/files/resume.pdf">résumé</a>
-        </div>
         <!-- <div class="icon-pencil">
             {{ partial "icons/icon-pencil.html"}}
         </div>
@@ -24,6 +21,20 @@
     {{ with .Site.Params.about.bio }}
     <div class="blurb">
         <p>{{ . | markdownify }}</p>
+    </div>
+    {{ end }}
+
+    {{ with .Site.Params.resume.filename }}
+    <div class="resume">
+      <a class="resume-link" href="/files/{{ . }}">résumé</a>
+    </div>
+    {{ end }}
+
+    {{ with .Site.Params.contact.social }}
+    <div class="social-links">
+        {{ range . }}
+        <a href="{{ .link }}" class="icon-{{ .icon }}"></a>
+        {{ end }}
     </div>
     {{ end }}
 

@@ -2,42 +2,52 @@
 skills = [
   "Swift",
   "iOS",
-  "Java",
-  "Python",
-  "Scala",
+  "C#",
   "HTML",
   "CSS",
   "Javascript",
+  "Azure",
   "SQL",
   "Git",
+  "Java",
+  "Python",
   "Object Oriented Programming",
   "Functional Programming"
 ]
 
 # Employment history
 [[employment]]
+  employer = "Milyli"
+  position = "Software Developer"
+  location = "Chicago, IL"
+  start = 2018-02-19
+  id = "milyli"
+
+[[employment]]
   employer = "Erikson Institute"
   position = "Technical Support Specialist"
   location = "Chicago, IL"
-  start = 2015-02
+  start = 2015-02-16
+  end = 2018-02-16
   id = "erikson"
 
 [[employment]]
   employer = "Miracle Messages"
   position = "Volunteer iOS Developer"
-  start = 2017-06
+  start = 2017-06-11
+  end = 2017-11-11
   id = "miraclemessages"
 
 [[employment]]
   employer = "Wirbicki Law Group"
-  start = 2013-12
-  end = 2014-12
+  start = 2013-12-02
+  end = 2014-12-05
 
 [[employment]]
   employer = "WMS Gaming"
   position = "Associate Mathematician"
-  start = 2010-09
-  end = 2013-10
+  start = 2010-09-27
+  end = 2013-10-18
   id = "wms"
 
 # Education
@@ -45,17 +55,17 @@ skills = [
   institution = "DePaul University"
   degree = "Master of Science"
   major = "Computer Science"
-  graduation = 2017-06
+  graduation = 2017-06-12
   id = "compsci"
 
 [[education]]
   institution = "DePaul University"
   degree = "Bachelor of Science"
   major = "Physics"
-  graduation = 2010-06
+  graduation = 2010-06-11
 
 [[education]]
   institution = "DePaul University"
   degree = "Bachelor of Arts"
   major = "Art"
-  graduation = 2010-06
+  graduation = 2010-06-11

@@ -44,7 +44,7 @@ publishDir = "public"
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
 		title = "About me"
-		bio = "Cormack once collected someone who was wearing a full suit of armor from the airport; this passenger was told to expect someone who looked like "Freddie Mercury, but serious." Cormack works as a software developer to support his family's swordplay habit."
+		bio = "Cormack once collected someone who was wearing a full suit of armor from the airport; this passenger was told to expect someone who looked like \"Freddie Mercury, but serious.\" Cormack works as a software developer to support his family's swordplay habit."
 
 	# Résumé
 	[params.resume]

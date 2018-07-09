@@ -8,7 +8,7 @@
     <div class="resume-skills">
       {{ with .Site.Data.resume.skills }}
       <ul class="cloud">
-        {{ range .Site.Data.resume.skills }}<li>{{ . }}</li>{{ end }}
+        {{ range . }}<li>{{ . }}</li>{{ end }}
       </ul>
       {{ end }}
     </div>
